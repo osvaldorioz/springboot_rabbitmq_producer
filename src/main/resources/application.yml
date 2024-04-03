@@ -1,0 +1,13 @@
+app:
+  message: Message has been sent Successfully..
+spring:
+  rabbitmq:
+    host: localhost
+    password: Punt0net1
+    port: 15672
+    username: mlops_user1
+    exchange: user.exchange
+    queue: user.queue
+    routingkey: user.routingkey
+server:
+  port: 9091
