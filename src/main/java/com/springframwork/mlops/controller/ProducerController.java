@@ -26,4 +26,9 @@ public class ProducerController {
         rabbitMqSender.send(user);
         return message;
     }
+
+    @GetMapping("/")
+    public String getMessage() {
+        return "Service is up and running...";
+    }
 }
