@@ -10,4 +10,4 @@ spring:
     queue: user.queue
     routingkey: user.routingkey
 server:
-  port: 9091
+  port: 8080
